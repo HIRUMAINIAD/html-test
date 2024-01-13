@@ -24,9 +24,13 @@ form button{
 
 #side{
     width:30%;
+
+}
+#side ul{
+    margin-top: 50px;
 }
 #side li{
-    background-color: #e0e0ea;
+    background-color: #eeeeee;
     margin: 3% 5% 0% 0%;
 }
 #main{
