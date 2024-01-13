@@ -46,7 +46,9 @@ p, li{
 }
 
 .photo img{
+    width: 400px;
     max-width: 80%;
+    
 }
 .photo{
     text-align: center;
