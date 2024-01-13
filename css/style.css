@@ -1,13 +1,53 @@
+body{
+    background-color: #ffffff;
+    font-family: "Helvetica Neue", "Helvetica", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Arial", "Yu Gothic", "Meiryo", sans-serif;
+}
+
+#title{
+    text-align: center;
+    font-size: 1.5em;
+    padding: 5px 10px 0px 10px;
+    margin: 5px 10px;
+}
 #container{
+
     display: flex;
     flex-direction: row;
+}
+form {
+    max-width: fit-content;
+    margin: auto;
+}
+form button{
+    display: block;
 }
 
 #side{
     width:30%;
 }
-
+#side li{
+    background-color: #e0e0ea;
+    margin: 3% 5% 0% 0%;
+}
 #main{
     width:70%;
-    margin:20px 10px;
+    margin:0px 10px;
+}
+h1, h2{
+    color: #444444;
+    border-bottom: solid thin #666666;
+}
+
+h3{
+    color: #444444;
+}
+p, li{
+    color: #666666;
+}
+
+.photo img{
+    max-width: 80%;
+}
+.photo{
+    text-align: center;
 }
