@@ -1,0 +1,53 @@
+body{
+    background-color: #ffffff;
+    font-family: "Helvetica Neue", "Helvetica", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Arial", "Yu Gothic", "Meiryo", sans-serif;
+    color:#666666;
+}
+
+#title{
+    text-align: center;
+    font-size: 1.5em;
+    padding: 5px 10px 0px 10px;
+    margin: 5px 10px;
+}
+#container{
+
+    display: flex;
+    flex-direction: row;
+}
+
+
+#side{
+    width:20%;
+
+}
+
+#main{
+    width:80%;
+    margin:0px 10px;
+}
+#gameCanvas{
+    display: block;
+    margin:0 auto;
+    background-color: #f0ffff;
+    border: 1px solid #888888;
+}
+
+
+h1, h2{
+    color: #444444;
+    border-bottom: solid thin #666666;
+}
+
+h3, h4, h5{
+    color: #444444;
+}
+p, li{
+    color: #666666;
+}
+
+.photo img{
+    width: 400px;
+    max-width: 80%;
+    
+}
